@@ -7,4 +7,12 @@ function testListingNotes() {
   assert.isTrue(notelistview.listingNotes() === textDisplayed);
 }
 
+function testListingNotesWhenNoNotes() {
+  var notelist = new NoteList();
+  var notelistview = new NoteListView(notelist);
+  var error = "No notes to list";
+  assert.isTrue(notelistview.listingNotes() === error);
+}
+
 testListingNotes();
+testListingNotesWhenNoNotes();

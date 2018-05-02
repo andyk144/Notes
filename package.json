@@ -1,0 +1,22 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "a singla page notes app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyk144/Notes.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyk144/Notes/issues"
+  },
+  "homepage": "https://github.com/andyk144/Notes#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
